@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Test-task Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<header class="header">
+		<div class="container-fluid">
+			<nav>
+				<div class="row">
+					<div class="col-xl-5 col-5">
+						<span class="header__logo">DrivEd</span>
+					</div>
+					<div class="col-xl-7 col-7">
+						<div id="myNav" class="media__menu">
+							<a href="javascript:void(0)" class="close__btn d-lg-none d-md-flex" onclick="closeNav()">&times;</a>
+							<ul class="header__menu d-xl-flex d-lg-flex justify-content-xl-between justify-content-lg-between">
+								<li>
+									<a class="header__menu_item" href="#">Для кого</a>
+								</li>
+								<li>
+									<a class="header__menu_item" href="#">Функции</a>
+								</li>
+								<li>
+									<a class="header__menu_item" href="#">Преимущества</a>
+								</li>
+								<li>
+									<a class="header__menu_item" href="#">Заявка на Демо</a>
+								</li>
+								<li>
+									<a class="header__menu_item" href="#">Контакты</a>
+								</li>
+								<li>
+									<div class="header__menu_language">
+										<select autofocus>
+											<option value="рус">Рус</option>
+											<option value="eng">Eng</option>
+										</select>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<span class="media__cursor d-lg-none d-flex justify-content-end" onclick="openNav()">&#9776;</span>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12">
+					<h1>Универсальная обучающая платформа для управления образовательными процессами</h1>
+					<p class="main__title_text">Автоматизация процессов обучения и управления данными процессами, является большим преимуществом для любого учебного заведения или бизнеса.</p>
+					<div class="main__form d-xl-flex justify-content-xl-start align-items-xl-start d-lg-flex justify-content-lg-start align-items-lg-start d-md-flex justify-content-md-center align-items-md-center d-sm-flex justify-content-sm-center align-items-sm-center d-flex justify-content-center align-items-center">
+						<form action="" method="">
+							<div class="main__form_input d-xl-inline-block d-lg-inline-block d-md-inline-block d-sm-inline-block d-block">
+								<input type="email" name="email" placeholder="Введите ваш e-mail" class="form-control input">
+							</div>
+							<div class="d-xl-inline-block d-lg-inline-block d-md-inline-block d-sm-inline-block d-block">
+								<button type="submit" name="submit" class="btn btn-primary btn__main text-lowercase">Получить консультацию</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12">
+					<div class="d-xl-flex justify-content-xl-start align-items-xl-start d-lg-flex justify-content-lg-start align-items-lg-start d-md-flex justify-content-md-center align-items-md-center d-sm-flex justify-content-sm-center align-items-sm-center d-flex justify-content-center align-items-center">
+						<img src="img/header-img.png" alt="img" class="main__img">
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="main__text_block">
+			<div class="container-fluid">
+				<p class="text-center">
+					DrivEd — масштабируемая платформа, которая может быть адаптирована к вашим конкретным бизнес-потребностям, независимо от других систем управления обучением, благодаря простоте использования, конфигурации и безопасности. Упрощает управление обучением, от студенческих дел, HR, бухгалтерского учета, расчета заработной платы и т. д.
+				</p>
+				<span class="circle__not_filled"></span>
+				<span class="blue__line"></span>
+				<span class="romb"></span>
+				<span class="small__circle"></span>
+				<span class="triangle__white_filled"></span>
+				<span class="triangle__yellow_filled"></span>
+			</div>
+		</section>
+		<section class="for__whom_section">
+			<div class="container-fluid">
+				<h2 class="text-center">Для кого</h2>
+				<div class="row justify-content-between">
+					<div class="col-xl-4 col-lg-4 col-md-12 d-flex flex-column align-items-center for__whom">
+						<div>
+							<img src="img/school.png" alt="school">
+						</div>
+						<h3>Образовательным проектам и учреждениям</h3>
+						<p class="for__column_1">
+							Офлайн и онлайн школы, университеты и любые другие образовательные проекты с помощью данной системы получают возможность управления контентом образовательных программ, предоставление доступа к программам обучения в онлайне, отслеживание успеваемости студентов, ведение финансовой отчетности и многое другое.
+						</p>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 d-flex flex-column align-items-center for__whom">
+						<div>
+							<img src="img/individual.png" alt="school">
+						</div>
+						<h3>Индивидуальным преподавателям, коучам, тренерам</h3>
+						<p class="for__column_2">
+							Офлайн и онлайн школы, университеты и любые другие образовательные проекты с помощью данной системы получают возможность управления контентом образовательных программ, предоставление доступа к программам обучения в онлайне, отслеживание успеваемости студентов, ведение финансовой отчетности и многое другое.
+						</p>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-12 d-flex flex-column align-items-center for__whom">
+						<div>
+							<img src="img/bussiness.png" alt="school">
+						</div>
+						<h3>Владельцам и управляющим бизнеса для обучения сотрудников</h3>
+						<p class="for__column_3">
+							Офлайн и онлайн школы, университеты и любые другие образовательные проекты с помощью данной системы получают возможность управления контентом образовательных программ, предоставление доступа к программам обучения в онлайне, отслеживание успеваемости студентов, ведение финансовой отчетности и многое другое.
+						</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<section class="about__study_section">
+			<div class="container-fluid">
+				<div class="wrapper">
+					<h2 class="text-center">Основные особенности</h2>
+					<p class="about__title_text">
+						Система состоит из трех частей. Первая - это личный кабинет студента. Вторая - это система управления обучением и управление внутренними процессами и финансами.
+					</p>
+					<div class="about__study_text">
+						<p>
+							Система масштабируется в обе стороны, если вам не нужны какие-либо функции мы уберем их из системы, что повлечет за собой удешевление продукта, и наоборот, мы можем включить существующие либо создать новые функции под ваши потребности
+						</p>
+					</div>
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 about__study_column">
+							<h3>Личный кабинет студента</h3>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Изучение материалов и прохождение тестирования онлайн</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Общение с наставником в режиме реального времени</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Наглядное отображение успеваемости</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Автоматическое формирование дипломов по окончанию обучения</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Календарь занятий</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Доступ к материалам в любое время</p>
+							</div>
+						</div>
+						<div class="col-7 d-xl-block d-lg-block d-md-block d-sm-none d-none">
+							<img src="img/monitor.png" alt="monitor" class="dash__img_right">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-7 d-xl-block d-lg-block d-md-block d-sm-none d-none">
+							<img src="img/monitor.png" alt="monitor" class="dash__img_left">
+						</div>
+						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 about__study_column">
+							<h3>Управление обучением</h3>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Автоматическая отправка писем и сообщений</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Контроль обучения,успеваемости и посещения студентов</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Управление мероприятиями в разных локациях</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Рассылка формы для сбора обратной связи</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Контроль доступа к контенту</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Управление расписанием </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 about__study_column">
+							<h3>Управление внутренними процессами и финансами</h3>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Управленческий и финансовый учет</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Контроль и управление продажами</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Инструменты аналитики</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Управление доступами для сотрудников</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Ведение базы клиентов и пользователей</p>
+							</div>
+							<div class="d-flex dash__block">
+								<p class="dash">-</p>
+								<p>Мониторинг и отслеживание действий пользователя</p>
+							</div>
+						</div>
+						<div class="col-7 d-xl-block d-lg-block d-md-block d-sm-none d-none">
+							<img src="img/monitor.png" alt="monitor" class="dash__img_right">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="advantages__section">
+			<div class="container-fluid">
+				<div class="wrapper">
+					<h2 class="text-center">Преимущества</h2>
+					<div class="d-flex flex-wrap justify-content-center">
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon1.png" alt="1">
+							</div>
+							<div class="advantages__icon_text">
+								Повышение качества образовательных услуг
+							</div>
+						</div>
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon2.png" alt="2">
+							</div>
+							<div class="advantages__icon_text">
+								Экономия времени и ресурсов
+							</div>
+						</div>
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon3.png" alt="3">
+							</div>
+							<div class="advantages__icon_text">
+								Диджитализация бизнес-процессов
+							</div>
+						</div>
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon4.png" alt="4">
+							</div>
+							<div class="advantages__icon_text">
+								Автоматизация взаимодействия между студентами и преподавателями
+							</div>
+						</div>
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon5.png" alt="5">
+							</div>
+							<div class="advantages__icon_text">
+								Автоматизация продаж
+							</div>
+						</div>
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon6.png" alt="6">
+							</div>
+							<div class="advantages__icon_text">
+								Увеличение дохода
+							</div>
+						</div>
+						<div class="d-flex flex-column align-items-center advantages__column">
+							<div>
+								<img src="img/icon7.png" alt="7">
+							</div>
+							<div class="advantages__icon_text">
+								Масштабирование
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mobile__app">
+			<div class="container-fluid">
+				<div class="wrapper">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mobile__app_text">
+							<h3>Мобильные приложения</h3>
+							<p>
+								В данный момент ведется разработка мобильных приложений под iOS и Android платформ и уже в скором времени данные приложения будут доступны для скачивания
+							</p>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<img src="img/phone.png" alt="phone">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="partners__section">
+			<h2 class="text-center">Наши партнеры</h2>
+			<div class="d-flex flex-wrap justify-content-center">
+				<div class="partners__logo"><img src="img/dark-logo.png" alt="logo1"></div>
+				<div class="partners__logo"><img src="img/git-logo.png" alt="logo2"></div>
+				<div class="partners__logo"><img src="img/placeholder-logo.png" alt="logo3"></div>
+				<div class="partners__logo"><img src="img/jeep-logo.png" alt="logo4"></div>
+			</div>
+		</section>
+		<section class="app">
+			<div class="container-fluid">
+				<h2 class="text-center">Заявка на демо</h2>
+				<div class="d-flex justify-content-center align-items-center">
+					<form class="app__form" action="" method="">
+						<div class="">
+							<input type="text" name="text" placeholder="Ваше имя" class="app__input">
+						</div>
+						<div>
+							<input type="email" name="email" placeholder="Введите ваш email" class="app__input">
+						</div>
+						<div>
+							<textarea name="message" placeholder="Что бы вы хотели обсудить?" class="app__input"></textarea> 
+						</div>
+						<div>
+							<button type="submit" name="submit" class="btn btn-primary app__form_btn text-lowercase">Отправить заявку</button>
+						</div>
+					</form>
+				</div>
+				<div class="d-flex justify-content-center">
+					<div class="app__img">
+						<img src="img/girl.png" alt="girl">
+					</div>
+					<div class="app__img">
+						<img src="img/man.png" alt="man">
+					</div>
+				</div>
+			</div>
+			<span class="romb_app1"></span>
+			<span class="romb_app2"></span>
+			<span class="circle__not_filled2"></span>
+			<span class="blue__line2"></span>
+			<span class="triangle__yellow_filled2"></span>
+			<span class="small__circle2"></span>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<span>© 2019.  DrivEd by <a href="#" class="footer__link">PioGroup</a></span>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<ul class="d-flex justify-content-between footer__row">
+							<li>+38 063 694 50 10</li>
+							<li>
+								<a href="mailto:ask@drivedcrm.com" class="footer__link">ask@drivedcrm.com</a>
+							</li>
+							<li>
+								<a href="#">telegram</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
